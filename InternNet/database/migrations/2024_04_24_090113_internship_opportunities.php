@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email');
             $table->timestamps();
              // Création de la clé étrangère pour lier l'offre de stage à un utilisateur
-            $table->foreignId('user_id')->constrained();
+            //$table->foreignId('user_id')->constrained();
              // Création de la clé étrangère pour lier l'entreprise à une offre de stage
             // $table->foreignId('company_id')->constrained();
             
