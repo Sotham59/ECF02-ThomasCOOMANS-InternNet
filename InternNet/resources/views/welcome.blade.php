@@ -55,11 +55,11 @@
                     </header>
 
                     <main class="mt-6">
-                       <h1 class="flex lg:justify-center text-xl">Welcome on the InternNet</h1>
+                    <h1 class="flex lg:justify-center text-xl">Welcome on the InternNet</h1>
                     </main>
 
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                       
+                    
                     </footer>
                 </div>
             </div>
