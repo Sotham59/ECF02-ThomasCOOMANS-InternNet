@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/offers/create', function () {
+    return view('/offers/create');
+});
+
 // Affichage des offres de stage
 Route::get('/offers', [OfferController::class, 'index'])->name('offers.index');
 

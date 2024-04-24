@@ -14,7 +14,7 @@
     <h2>{{ $offer->title }}</h2>
     <p>{{ $offer->description }}</p>
     <p>Entreprise: {{ $offer->company }}</p>
-    <!-- Ajoutez ici un formulaire pour postuler à l'offre -->
+    <button>Postuler</button>
 @endsection
 
 </body>
